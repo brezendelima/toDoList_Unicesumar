@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(33, 36, 37);
+    font-family: "Montserrat", sans-serif;
+    color:white
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 10em;
+    font-weight: 600;
+}
+
+.inputLabel {
+    font-size: 1.5em;
+}
+
+.inputTarefa {
+    margin-block: 0.5em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+.buttonAdd {
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    border: none;
+    padding: 1em;
+    margin-inline: 1em;
+}
+
+li {
+    font-size: 1.3em;
+}
+
+.checkbox {
+    height: 2em;
+    width: 2em;
+    margin-inline: 0.8em;
+}
+
+.hideTask {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.hideCheckbox {
+    width: 1.6em;
+}
