@@ -44,5 +44,14 @@ function alternarOcultarConcluidas() {
   renderizarTarefas();
 }
 
+// Função para excluir toda a lista de tarefas
+function excluirLista() {
+  if (confirm('Tem certeza de que deseja excluir toda a lista de tarefas?')) {
+    tarefas = [];
+    localStorage.removeItem('tarefas');
+    renderizarTarefas();
+  }
+}
+
 // Renderizar tarefas quando a página carregar
 renderizarTarefas();
